@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mekalen Naidu</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loader" class="loader">
+    <div class="loader-inner">
+      <svg width="60" height="60" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="6" fill="none" stroke-linecap="round"/>
+      </svg>
+      <span>Loading</span>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav id="navbar" class="navbar">
+      <div class="nav-left">
+        <a href="#home" class="logo-link">
+          <img src="logo.png" alt="Logo" class="logo-img">
+        </a>
+      </div>
+
+      <ul id="navMenu" class="nav-menu">
+        <li><a href="#home" data-link>Home</a></li>
+        <li><a href="#about" data-link>About</a></li>
+        <li><a href="#work" data-link>Projects</a></li>
+        <li><a href="#contact" data-link>Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+        <button id="hamburger" class="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+      <ul>
+        <li><a href="#home" data-link>Home</a></li>
+        <li><a href="#about" data-link>About</a></li>
+        <li><a href="#work" data-link>Projects</a></li>
+        <li><a href="#contact" data-link>Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="section hero reveal">
+    <div class="hero-content">
+      <div class="hero-inner">
+        <h1 class="headline">Welcome to My Site</h1>
+        <p class="subhead">Where development meets deployment, and problems meet solutions.</p>
+        <div class="hero-cta">
+          <a href="#work" class="btn">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="hero1.png" alt="Hero graphic">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section reveal">
+    <div class="container">
+      <div class="card">
+        <h2>About Me</h2>
+        <p>Hi, I'm Mekalen Naidu — a passionate Full Stack Developer and IT Technician who loves building innovative digital
+        solutions and solving complex technical challenges.
+        <br>
+        I bring expertise across theentire technology stack. From crafting responsive web applications with HTML5, JavaScript,
+        and Python to configuring
+        network infrastructures and providing hands-on IT support, I transform ideas into reliable, user-friendly solutions.
+        <br>
+        My skillset spans web development, database management, network security, and system administration, backed by
+        certifications including Microsoft Azure Database Administrator and Cisco CCNA. I'm driven by a genuine passion for
+        problem-solving and continuous learning, always staying current with emerging technologies.
+        <br>
+        Let's build something exceptional together.</p>
+      </div>
+      <div class="card">
+        <h3>Info</h3>
+        <p>Country: South Africa</p>
+        <p>City: Durban</p>
+        <p>Email: mekalen.naidu@gmail.com</p>
+        <p>Phone: +27 64 757 3116</p>
+        <p>Freelance: Available</p>
+        <p>Languages: English, Afrikaans</p>
+        <p>Services: Web Development, IT Support</p>
+        <p>Linkedin: <a href= "https://www.linkedin.com/in/mekalen-naidu-3721511bb/" target="_blank">Mekalen Naidu</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="section reveal">
+    <h2 class="section-heading">Projects</h2>
+    <div class="work-grid">
+      <div class="work-item card">
+       <a href="https://mekalen.github.io/Pinnacle-Global-Corp/" target="_blank"> <img src="Images/PG.JPG" alt="Project One"></a>
+        <h3>Pinnacle Global Corp</h3>
+        <p>Creating Pinnacle Global was an exercise in elegance and corporate professionalism. I aimed for a premium, executive
+        feel that aligned with consulting and global business services. The challenge was designing a layout that looked
+        high-end without being too heavy—balancing gradients, white space, iconography, and long sections of content. Ensuring
+        readability and hierarchy across multiple service and about sections was another hurdle, especially on mobile. But
+        through refining the grid structure, modernizing the hero, and polishing the brand style, the final result was a clean,
+        authoritative corporate website. It ended up capturing exactly the level of professionalism I wanted.</p>
+      </div>
+      <div class="work-item card">
+        <img src="Images/PC.png" alt="Project Two">
+        <h3>Project Two</h3>
+        <p>Working on this project reminded me that building a brand-new gaming PC is easy—breathing life into an old, outdated
+        system is where the real challenge begins. I was called out to clean a client’s PC and hopefully get it running again,
+        but the machine wouldn not even power on. After a full diagnostic, I traced the issue back to a failing hard drive.
+        Because the hardware was so outdated, repairing it wasn not the most practical solution. Instead of letting a perfectly
+        functional system go to waste, I presented my client with an alternative: transforming the old PC into a compact TV box
+        or entertainment center. This approach not only saved the device from being discarded but also turned it into something
+        genuinely useful. It was a great reminder that creativity and problem-solving often matter more than simply replacing
+        parts.</p>
+      </div>
+       <div class="work-item card">
+       <a href="https://mekalen.github.io/TransFlow/" target="_blank"><img src="Images/TF.JPG" alt="Project Three"></a> 
+        <h3>TransFlow</h3>
+        <p>Building TransFlow Logistics was my first major step into designing a full-scale business website. I set out to create a
+        clean, modern platform that felt as reliable as the logistics company it represented. The biggest challenge was
+        structuring a large amount of content—services, tracking, quotes, testimonials—while still keeping the design simple and
+        intuitive. Tailwind design consistency, mobile navigation, and component organization made the project demanding, but
+        each hurdle pushed me to refine my structure and improve my CSS logic. In the end, the site became a polished,
+        professional logistics platform that I am proud of—functional, scalable, and visually strong.</p>
+      </div>
+      <div class="work-item card">
+        <img src="Images/Laptop.jpeg" alt="Project Four">
+        <h3>Project Four</h3>
+        <p>Professional Laptop Repair: HP Display Failure Diagnosis & Resolution
+        
+          This HP laptop was entrusted to me presenting a critical display failure—no output on both the integrated LCD panel
+          and external monitors via HDMI/DisplayPort. Initial diagnostics indicated potential GPU failure, however further
+          circuit-level analysis revealed the root cause: a voltage discontinuity in the VRAM power delivery circuit.
+        
+          Using a digital multimeter and thermal imaging, I traced the fault to a compromised power rail feeding the video
+          memory subsystem. The issue stemmed from either a col</p>
+    </div>
+      <div class="work-item card">
+        <a href="https://mekalen.github.io/TechNova/" target="_blank"><img src="Images/TN.JPG" alt="Project Five"></a>
+        <h3>Tech Nova</h3>
+        <p>TechNova was where I truly tested my creativity. I wanted a futuristic, tech-forward design with gradients, animations,
+        and a clean dark-theme UI that felt like a real cloud-infrastructure company. The challenge was balancing aesthetics
+        with performance—especially with animations, grids, and responsiveness. Crafting the services, pricing, and technology
+        sections required attention to detail, and the mobile navigation brought its own set of bugs. But after iterating,
+        fixing rendering issues, and optimizing interactions, TechNova became a stunning, modern website that showcases both
+        design and technical capability. It is one of the projects that pushed my UI/UX skills to a new level.</p>
+      </div>
+      <div class="work-item card">
+       <a href="https://mekalen.github.io/GlobalFlow/" target="_blank"><img src="Images/GF.JPG" alt="Project Six"></a>
+        <h3>GlobalFLow</h3>
+        <p>I created a comprehensive logistics and supply chain management website that serves as a complete digital platform for
+        freight forwarding and shipping services. The site needed to convey reliability, global reach, and operational
+        efficiency while providing practical tools for customers to interact with the business.</p>
+      </div>
+  </section>
+
+  <!-- CONTACT -->
+<section id="contact" class="section reveal">
+  <div class="container">
+    <div class="card">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/mpwvywlw" method="POST" id="contactForm">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" rows="4" placeholder="Message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+      <p id="formMsg" class="form-msg"></p>
+    </div>
+  </div>
+</section>
+
+  <!-- BACK TO TOP -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <footer class="site-footer">
+    <p>© 2025 Mekalen Naidu</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
